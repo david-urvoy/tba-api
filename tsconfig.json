@@ -1,8 +1,14 @@
 {
     "compilerOptions": {
-        "rootDir": "./src",
+        "rootDir": "./",
         "outDir": "./build",
+        "target": "ESNext",
+        "module": "NodeNext",
+        "strict": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "moduleResolution": "NodeNext",
+        "resolveJsonModule": true,
         "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true
     }
 }
